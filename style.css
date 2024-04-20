@@ -1,0 +1,97 @@
+/* Devin Mahase 301349666 */
+
+body {
+    background-color:#6098ff;
+    color:#fc6d0d;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    text-align:center;
+    color:#fdac41;
+    text-transform:uppercase;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+P, blockquote, pre {
+   background-color:#0aecce
+}
+
+/* start navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fc790d;
+    border-radius: 0.25em;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color:#091fe7d7;
+}
+
+nav ul li a.active {
+    background-color:#f3d00bb9;
+    color: #1a0ce6d7;
+}
+    
+nav ul li.right{
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li.right,
+    nav ul li { float: none; }
+}
+/* end navigation */
+/* Lab 8 */
+img {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 2em;
+}
+
+th, td{
+    border: .15em solid #2e4edb;
+    border-radius: .15em;
+    padding: .5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p#about {
+    margin-left: 9.5em;
+}
+video {
+    width: 90%;
+    height: auto;
+}
+
+input {
+      display: block;
+      width: 100%;
+}
+
+input[type=text]:focus {
+    background-color:#fc790d
+}
